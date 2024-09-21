@@ -1,0 +1,99 @@
+/* Basic reset to remove default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e0e0e0);
+    color: #333;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling the header and navigation */
+header {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Hero section styling */
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 
+
+}
+
+/* Styling the image at the bottom of the page */
+.footer-image {
+    width: 150px;  /* Adjust the width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  /* Center the image */
+    border-radius: 10px;  /* Optional: Rounds the corners of the image */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Optional: Adds shadow for depth */
+}
+
+
+/* Social Icons Styling */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;  /* Default icon color */
+    font-size: 30px;  /* Adjust icon size */
+    transition: color 0.3s ease;
+}
+
+/* Change icon color on hover */
+.social-icon:hover {
+    color: #FFD700;
+}
+
+/* Adjusting footer padding to accommodate the icons */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;  /* Increased padding for better spacing */
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
